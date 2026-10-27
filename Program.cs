@@ -26,3 +26,19 @@
 // Console.WriteLine($"Количество товаров дороже 100: {countMoreThan100}");
 
 
+
+int[] prices = { 120, 45, 300, 80, 15, 210 };
+int minPrice = prices[0]; 
+int maxPrice = prices[0];
+int maxIndex = 0;
+for (int i = 1; i < prices.Length; i++){
+    if (prices[i] < minPrice){
+        minPrice = prices[i];
+    }
+    if (prices[i] > maxPrice){
+        maxPrice = prices[i];
+        maxIndex = i;
+    }
+}
+Console.WriteLine($"Минимальная цена: {minPrice}");
+Console.WriteLine($"Индекс самого дорогого товара: {maxIndex} (цена: {maxPrice})");
