@@ -54,3 +54,44 @@
 //     Console.Write(n+" ");
 // }
 
+
+// int[] numbers = new int[5];
+// Console.WriteLine("Введите 5 целых чисел:");
+// for (int i = 0; i < numbers.Length; i++){
+//     Console.Write($"Число {i + 1}: ");
+//     numbers[i] = int.Parse(Console.ReadLine());
+// }
+
+// Console.Write("Массив в обратном порядке: ");
+// for (int i = numbers.Length - 1; i >= 0; i--){
+//     Console.Write(numbers[i] + " ");
+// }
+// Console.WriteLine();
+
+// int evenCount = 0;
+// foreach (int num in numbers){
+//     if (num % 2 == 0){
+//         evenCount++;
+//     }
+// }
+// Console.WriteLine($"Количество чётных чисел: {evenCount}");
+
+
+
+// string[] names = { "Анна", "Игорь", "Мария", "Олег", "Ольга" };
+// Console.Write("Введите имя для поиска: ");
+// string searchName = Console.ReadLine();
+// int foundIndex = -1; 
+// for (int i = 0; i < names.Length; i++){
+//     if (names[i] == searchName){
+//         foundIndex = i; 
+//         break;         
+//     }
+// }
+// if (foundIndex != -1){
+//     Console.WriteLine($"Имя найдено! Позиция в массиве (индекс): {foundIndex}");
+// }
+// else{
+//     Console.WriteLine("Не найдено");
+// }
+
