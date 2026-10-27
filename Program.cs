@@ -138,3 +138,18 @@
 //     Console.WriteLine("Статус: отчислен");
 // }
 
+
+int[] arr = { 1, 2, 3, 4, 5, 6 };
+for (int i = 0; i < arr.Length / 2; i++){
+    int j = arr.Length - 1 - i; 
+    int temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+}
+
+
+Console.Write("Развёрнутый массив: ");
+foreach (int item in arr){
+    Console.Write(item + " ");
+}
+Console.WriteLine();
