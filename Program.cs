@@ -27,18 +27,30 @@
 
 
 
-int[] prices = { 120, 45, 300, 80, 15, 210 };
-int minPrice = prices[0]; 
-int maxPrice = prices[0];
-int maxIndex = 0;
-for (int i = 1; i < prices.Length; i++){
-    if (prices[i] < minPrice){
-        minPrice = prices[i];
-    }
-    if (prices[i] > maxPrice){
-        maxPrice = prices[i];
-        maxIndex = i;
-    }
-}
-Console.WriteLine($"Минимальная цена: {minPrice}");
-Console.WriteLine($"Индекс самого дорогого товара: {maxIndex} (цена: {maxPrice})");
+// int[] prices = { 120, 45, 300, 80, 15, 210 };
+// int minPrice = prices[0]; 
+// int maxPrice = prices[0];
+// int maxIndex = 0;
+// for (int i = 1; i < prices.Length; i++){
+//     if (prices[i] < minPrice){
+//         minPrice = prices[i];
+//     }
+//     if (prices[i] > maxPrice){
+//         maxPrice = prices[i];
+//         maxIndex = i;
+//     }
+// }
+// Console.WriteLine($"Минимальная цена: {minPrice}");
+// Console.WriteLine($"Индекс самого дорогого товара: {maxIndex} (цена: {maxPrice})");
+
+
+// int[] balance = { 100, -50, 20, -5, 0, 75 };
+// for (int i =0; i<balance.Length; i++){
+//     if (balance[i] < 0 ){
+//         balance[i] = 0;
+//     } 
+// }
+// foreach (int n in balance){
+//     Console.Write(n+" ");
+// }
+
