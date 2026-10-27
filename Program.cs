@@ -95,3 +95,46 @@
 //     Console.WriteLine("Не найдено");
 // }
 
+// int[] grades = { 4, 2, 3, 2, 2, 2, 2, 2 }; 
+// Console.Write("Все оценки: ");
+// foreach (int grade in grades){
+//     Console.Write(grade + " ");
+// }
+// Console.WriteLine();
+// int sum = 0;
+// int maxGrade = grades[0];
+// int minGrade = grades[0];
+// int twosCount = 0;
+// int fivesCount = 0;
+// foreach (int grade in grades){
+//     sum += grade; 
+//     if (grade > maxGrade) maxGrade = grade; 
+//     if (grade < minGrade) minGrade = grade; 
+
+//     if (grade == 2) twosCount++;  
+//     if (grade == 5) fivesCount++;
+// }
+
+
+// double average = (double)sum / grades.Length;
+// Console.WriteLine($"Средняя оценка: {average:F2}");
+
+
+// Console.WriteLine($"Наибольшая оценка: {maxGrade}");
+// Console.WriteLine($"Наименьшая оценка: {minGrade}");
+
+
+// Console.WriteLine($"Количество «двоек»: {twosCount}");
+// Console.WriteLine($"Количество «пятёрок»: {fivesCount}");
+
+
+// if (average >= 4.5){
+//     Console.WriteLine("Статус: Отличник");
+// }
+// else if (average >= 3.5){
+//     Console.WriteLine("Статус: Хорошист");
+// }
+// else{
+//     Console.WriteLine("Статус: отчислен");
+// }
+
